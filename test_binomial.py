@@ -23,7 +23,7 @@ def simpmarket(win_rate, play_cnt=1000, stock_num=9, position=0.01, commission=0
         my_money[i] -= commission
         if my_money[i] <= 0:
             break
-
+    
     return my_money
 
 def positmanage(play_cnt=1000, stock_num=9, commission=0.01):
