@@ -64,3 +64,4 @@ if __name__ == "__main__":
     _ = [plt.plot(np.arange(50), positmanage(play_cnt=50, stock_num=9, commission=0.01)) for _ in np.arange(0, trader)]
     #_ = plt.hist([positmanage(play_cnt=50, stock_num=9, commission=0.01)[-1] for _ in np.arange(0, trader)], bins=30)
     
+    
